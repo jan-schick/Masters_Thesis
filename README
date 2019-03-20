@@ -1,0 +1,55 @@
+
+-------------------------------------------------------------------------------
+
+All data provided in this folder is part of a Masters Thesis with the title
+
+                         The Possibilities of
+                   Multivariate Time Series Analysis
+                        as a Tool for Studying         
+                     Forest Business Development
+              - with Case Studies from Westphalia-Lippe -
+
+written at
+
+                        Göttingen University,
+                         Faculty of Forestry          
+
+
+Author:       Jan Schick
+1st examiner: Prof. Dr. Bernhard Möhring  (Forest Economics)
+2nd examiner: Prof. Dr. Helmut Herwartz   (Econometrics)
+advisor:      Dr. Kai Husmann             (Forest Economics and Sustainable
+                                           Land-use Planning)
+
+-------------------------------------------------------------------------------
+
+IMPORTANT NOTES:
+
+(i)  The thesis used data of the "Betriebsvergleich Westfalen-Lippe" [Dög et. 
+     al. 2017], which is highly sensitive, for case studies one and two. 
+     Therefore a randomized component was added to the data found here. Thus 
+     the original results of said case studies can not be reproduced here. For 
+     details, see the Master's thesis mentioned above. 
+
+(ii) For the first case study, data from statista.com was used. As Statista 
+     GmbH does not allow transferring the data, it has to be obtained manually 
+     by the reader from:
+
+     https://de.statista.com/statistik/daten/studie/5023/umfrage/entwicklung-des-bruttoinlandsprodukts-von-nordrhein-westfalen-seit-1970/
+
+-------------------------------------------------------------------------------
+
+The data is available from a CD, enclosed in the thesis, and GitHub:
+
+https://github.com/jan-schick/Masters_Thesis
+
+All scripts (.r, .txt) are UTF-8 encoded
+
+
+--------------------------------- Literature ----------------------------------
+
+[Dög et. al. 2017] Dög, M., Möhring, B., von Wrede, E., and Ellermann, W. 
+   (2017). Privatwald-Betriebsvergleich Westfalen-Lippe im Jahr 2016. 
+   AFZ-DerWald, 23:31 – 33.
+
+

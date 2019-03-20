@@ -1,0 +1,77 @@
+
+VAR Estimation Results:
+========================= 
+Endogenous variables: Beech.harvest.d, Spruce.harvest.d 
+Deterministic variables: none 
+Sample size: 43 
+Log Likelihood: -148.351 
+Roots of the characteristic polynomial:
+0.6479 0.4074 0.3896 0.06846
+Call:
+VAR(y = pt.data.r2.d, p = 2, type = "none", exogen = pt.exo.d)
+
+
+Estimation results for equation Beech.harvest.d: 
+================================================ 
+Beech.harvest.d = Beech.harvest.d.l1 + Spruce.harvest.d.l1 + Beech.harvest.d.l2 + Spruce.harvest.d.l2 + Beech.price.d + Spruce.price.d + Vivian.Wiebke + Vivian.Wiebke.l1 + Vivian.Wiebke.l2 + Kyrill + Kyrill.l1 + Kyrill.l2 
+
+                    Estimate Std. Error t value Pr(>|t|)  
+Beech.harvest.d.l1  -0.45780    0.17488  -2.618   0.0136 *
+Spruce.harvest.d.l1  0.03974    0.05980   0.665   0.5112  
+Beech.harvest.d.l2   0.02131    0.20011   0.107   0.9159  
+Spruce.harvest.d.l2  0.03877    0.03910   0.991   0.3292  
+Beech.price.d        0.01368    0.03486   0.392   0.6974  
+Spruce.price.d       0.01545    0.02227   0.694   0.4930  
+Vivian.Wiebke       -0.43494    1.06514  -0.408   0.6858  
+Vivian.Wiebke.l1    -0.32023    1.38912  -0.231   0.8192  
+Vivian.Wiebke.l2    -0.83077    1.25590  -0.661   0.5132  
+Kyrill              -1.09140    1.00287  -1.088   0.2849  
+Kyrill.l1           -1.90431    1.63734  -1.163   0.2537  
+Kyrill.l2           -1.59215    1.58990  -1.001   0.3244  
+---
+Signif. codes:  0 `***` 0.001 `**` 0.01 `*` 0.05 `.` 0.1 ` ` 1
+
+
+Residual standard error: 0.9551 on 31 degrees of freedom
+Multiple R-Squared: 0.3167,	Adjusted R-squared: 0.0522 
+F-statistic: 1.197 on 12 and 31 DF,  p-value: 0.3278 
+
+
+Estimation results for equation Spruce.harvest.d: 
+================================================= 
+Spruce.harvest.d = Beech.harvest.d.l1 + Spruce.harvest.d.l1 + Beech.harvest.d.l2 + Spruce.harvest.d.l2 + Beech.price.d + Spruce.price.d + Vivian.Wiebke + Vivian.Wiebke.l1 + Vivian.Wiebke.l2 + Kyrill + Kyrill.l1 + Kyrill.l2 
+
+                     Estimate Std. Error t value Pr(>|t|)    
+Beech.harvest.d.l1   -0.07463    0.49294  -0.151  0.88065    
+Spruce.harvest.d.l1  -0.24076    0.16857  -1.428  0.16322    
+Beech.harvest.d.l2    0.30207    0.56407   0.536  0.59612    
+Spruce.harvest.d.l2   0.21904    0.11022   1.987  0.05578 .  
+Beech.price.d        -0.16395    0.09826  -1.669  0.10527    
+Spruce.price.d        0.07404    0.06276   1.180  0.24708    
+Vivian.Wiebke         7.88688    3.00239   2.627  0.01327 *  
+Vivian.Wiebke.l1     -8.89548    3.91561  -2.272  0.03019 *  
+Vivian.Wiebke.l2      0.07158    3.54008   0.020  0.98400    
+Kyrill               19.66525    2.82686   6.957 8.35e-08 ***
+Kyrill.l1           -12.96602    4.61526  -2.809  0.00852 ** 
+Kyrill.l2            -5.81134    4.48155  -1.297  0.20430    
+---
+Signif. codes:  0 `***` 0.001 `**` 0.01 `*` 0.05 `.` 0.1 ` ` 1
+
+
+Residual standard error: 2.692 on 31 degrees of freedom
+Multiple R-Squared: 0.819,	Adjusted R-squared: 0.749 
+F-statistic: 11.69 on 12 and 31 DF,  p-value: 2.186e-08 
+
+
+
+Covariance matrix of residuals:
+                 Beech.harvest.d Spruce.harvest.d
+Beech.harvest.d           0.8832          -0.3021
+Spruce.harvest.d         -0.3021           7.1733
+
+Correlation matrix of residuals:
+                 Beech.harvest.d Spruce.harvest.d
+Beech.harvest.d             1.00            -0.12
+Spruce.harvest.d           -0.12             1.00
+
+
